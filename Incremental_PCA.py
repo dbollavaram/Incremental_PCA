@@ -34,7 +34,7 @@ from sklearn.base import BaseEstimator, TransformerMixin
 from sklearn.utils import array2d, as_float_array
 from sklearn.utils.extmath import safe_sparse_dot
 from sklearn.decomposition import PCA
-
+ 
 class CCIPCA(BaseEstimator, TransformerMixin):
     """ Function: CCIPCA 
 	Parameters:
